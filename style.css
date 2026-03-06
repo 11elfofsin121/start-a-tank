@@ -1,0 +1,86 @@
+body head nav {
+  color: #d5eef9;
+  background-color: black;
+  font-family: Garamond, serif;
+}
+a:link {
+  border-left: 4px solid green;
+}
+a:visited {
+  color: #7cffff;
+  border-left: 4px solid green;
+}
+a:hover {
+  color: #f5f5f5;
+  border-left: 4px solid red;
+}
+a:active {
+  border-left: 4px solid green;
+}
+ul.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}
+ul li,
+.nav {
+  float: left;
+}
+ul li a,
+.nav {
+  display: block;
+  text-align: center;
+  color: #000000;
+  padding: 10px 55px;
+}
+li a {
+  display: inline-block;
+  margin: 0;
+  background-color: #75a842b1;
+}
+.dropnav {
+  position: relative;
+  color: hsl(202, 42%, 35%);
+}
+.dropm {
+  display: block;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 55px;
+  cursor: pointer;
+}
+li a:hover,
+.dropnav:hover .dropm {
+  background-color: #42a8a8;
+}
+li.dropnav {
+  display: inline-block;
+}
+.dropnav-content {
+  display: none;
+  background: color #40c0f7;
+  min-width: 200px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropnav-content a {
+  display: block;
+  padding: 20px 25px;
+  text-align: left;
+}
+.dropnav-content a:hover {
+  background-color: #42a8a8;
+}
+.dropnav:hover .dropnav-content {
+  display: block;
+}
+section {
+  margin: 45px;
+  float: left;
+}
+.property {
+  margin: 15px;
+  color: #42a8a8;
+}
