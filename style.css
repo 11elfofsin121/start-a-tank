@@ -3,6 +3,9 @@ body head nav {
   background-color: black;
   font-family: Garamond, serif;
 }
+p {
+  margin: 0;
+}
 a:link {
   border-left: 4px solid green;
 }
@@ -23,8 +26,7 @@ ul.nav {
   margin: 0;
   overflow: auto;
 }
-ul li,
-.nav {
+ul li.nav {
   float: left;
 }
 ul li a,
@@ -81,15 +83,16 @@ section {
   float: left;
 }
 .property {
-  margin: 15px;
+  margin: 2px;
   color: #42a8a8;
 }
 table {
   border-collapse: collapse;
   width: 100;
-  margin-top: 5px;
+  margin: 0.5em 0 0.8em 1.4em;
+  text-align: left;
   background-color: #e7770076;
-  position: relative;
+
   padding: 5px;
   right: 5px;
 }
@@ -101,4 +104,13 @@ th {
   padding-top: 15px;
   padding-bottom: 12px;
   text-align: left;
+}
+blockquote {
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  padding: 0px;
+  font-size: 88%;
+  max-width: 24%;
+  float: right;
 }
